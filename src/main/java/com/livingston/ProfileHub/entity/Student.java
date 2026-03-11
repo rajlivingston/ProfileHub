@@ -14,18 +14,18 @@ public class Student {
     private String destination;
     private String resumePath;
     private String visumePath;
-
-    public Student() {
-    }
-
-    public Student(Long id, String name, String degree, String destination, String resumePath, String visumePath) {
-        this.id = id;
-        this.name = name;
-        this.degree = degree;
-        this.destination = destination;
-        this.resumePath = resumePath;
-        this.visumePath = visumePath;
-    }
+//
+//    public Student() {
+//    }
+//
+//    public Student(Long id, String name, String degree, String destination, String resumePath, String visumePath) {
+//        this.id = id;
+//        this.name = name;
+//        this.degree = degree;
+//        this.destination = destination;
+//        this.resumePath = resumePath;
+//        this.visumePath = visumePath;
+//    }
 
     public Long getId() {
         return id;
